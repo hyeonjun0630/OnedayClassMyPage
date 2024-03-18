@@ -39,6 +39,7 @@
 
 *{
     font-family: "Noto Sans KR", sans-serif;
+    color: #262626;
     margin: 0;
     padding: 0;
 }
@@ -77,7 +78,7 @@ h1{
 }
 
 button{ /*자식. 앱솔*/
-    width: 382px;
+    padding: 30px; /*계속 버튼 늘어나서 재활용 가능*/
     height: 129px;
     background-color: #0051ED;
     color: white;
@@ -90,6 +91,6 @@ button{ /*자식. 앱솔*/
 }
 
 .container_btn { /*부모. 릴레이티브*/
-    background-color: yellow;
     position: relative;
+    margin-top: 112px;
 }
