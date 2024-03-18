@@ -1,0 +1,88 @@
+/* .p1{
+    position: absolute; left: 144px; top: 225px;
+    font-size: 48px;
+    color:blue;
+    font-weight: 400;
+}
+.h1{
+    position: absolute;
+    font-size: 96px;
+    position: absolute; left: 144px; top: 320px;
+    font-weight: 700;
+}
+.p2{
+    position: absolute; left: 144px; top: 733px;
+    font-size: 48px;
+    color:blue;
+    font-weight: 400;
+}
+
+.p3{
+    position: absolute; left: 144px; top: 831px;
+    font-size: 48px;
+}
+
+.p4{
+    color: white;
+    position: absolute; left: 1461px; top: 1113px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.p5{
+    position: absolute; left: 1375px; top: 1083px;
+    background-color: blue;
+    height: 129px;
+    width: 382px;
+    border-radius: 20px;
+} */
+
+
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 218px 145px;
+}
+
+.container_text{
+    /* 추가할 속성 없음 */
+}
+
+.container_text .container_title{
+    /* 추가할 속성 없음 */    
+}
+
+.text_blue{
+    color: #0051ED;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h1{
+    margin-top: 21px;
+    font-size: 96px;
+}
+
+.container_instruction{
+    margin-top: 135px;
+}
+
+.container_instruction .descript{
+    margin-top: 21px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+button{
+    width: 382px;
+    height: 129px;
+    background-color: #0051ED;
+    color: white;
+    font-weight: 700px;
+    font-size: 48px;
+    border-radius: 20px;
+    border: none;
+}
