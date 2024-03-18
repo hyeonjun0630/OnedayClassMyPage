@@ -76,7 +76,7 @@ h1{
     font-weight: 400;
 }
 
-button{
+button{ /*자식. 앱솔*/
     width: 382px;
     height: 129px;
     background-color: #0051ED;
@@ -84,5 +84,12 @@ button{
     font-weight: 700px;
     font-size: 48px;
     border-radius: 20px;
-    border: none;
+    border: none;   
+    position: absolute;
+    right: 0;
+}
+
+.container_btn { /*부모. 릴레이티브*/
+    background-color: yellow;
+    position: relative;
 }
